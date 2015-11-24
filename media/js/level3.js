@@ -256,7 +256,7 @@ Crafty.defineScene("level3", function () {
             .animate('boss3Runnig', -1)
             .collision([98, 22], [126, 4], [189, 0], [189, 20], [164, 44], [164, 50], [184, 60], [184, 96], [173, 96], [173, 73], [163, 62], [160, 74], [144, 74], [140, 61], [115, 61], [134, 73], [135, 90], [123, 88], [104, 124], [84, 124], [65, 88], [54, 90], [54, 73], [73, 61], [49, 61], [44, 74], [29, 74], [25, 62], [15, 72], [14, 96], [4, 96], [4, 59], [24, 50], [24, 44], [0, 20], [0, 0], [62, 4], [88, 22])
             .attr({ x: 400, y: 100})
-            /*.delay(function () {
+            .delay(function () {
                 if (bigBossLevel3Killed === false) {
                     Crafty.e("2D, Canvas, SpriteAnimation, missileBoss3GreyBluePetit, Solid, Collision")
                         .reel('missileBoss3GreyBluePetit', 1000, 0, 0, 4)
@@ -457,7 +457,7 @@ Crafty.defineScene("level3", function () {
                             }
                         });
                     }
-            }, 500, -1)*/
+            }, 500, -1)
             .delay(function () {
                 if (bigBossLevel3Killed === false) {
                     Crafty.e("2D, Canvas, SpriteAnimation, missileBoss3PurplePetit, Fourway, Solid, Collision")
